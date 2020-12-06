@@ -1,0 +1,14 @@
+*~
+*egg-info
+*.pyc
+__pycache__
+
+.vagrant
+.Trash*
+.tmp
+
+Vagrantfile
+activate.sh
+
+ubuntu-bionic-18.04-cloudimg-console.log
+ubuntu-xenial-16.04-cloudimg-console.log
