@@ -35,6 +35,13 @@ setup(
         "setuptools",
         "pytest",
         "click",
+        "bash",
+        "cli-passthrough",
+        "texttable",
+        "simplejson",
+        "ruamel.yaml",
+        "toml",
+        "requests",
     ],
     entry_points="""
         [console_scripts]
