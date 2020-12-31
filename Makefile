@@ -13,7 +13,7 @@ download_bash_environment_manager:
 
 conda: download_bash_environment_manager
 	@sudo bash .tmp/bash-environment-manager-master/types/python/assemble.sh $(APPNAME) $(SUDO_USER) computed conda
-	@sudo bash .tmp/bash-environment-manager-master/types/python/emit_activate.sh $(APPNAME) $(SUDO_USER) computed conda
+	@sudo bash .tmp/bash-environment-manager-master/types/python/emit/emit_activate.sh $(APPNAME) $(SUDO_USER) computed conda
 
 vagrant.conda: download_bash_environment_manager
 	@if test ! -f "Vagrantfile";then \
